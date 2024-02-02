@@ -128,9 +128,20 @@
 }
 /* mobile  */
 @media screen and (max-width: 767px) {
-  .footer .social-list {
+  .footer {
     margin-top: 40px;
     margin-bottom: 80px;
+  }
+  .social-list {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding-left: 20px;
+  }
+  .nav-list {
+    list-style: none;
+    text-decoration: none;
+
+    position: relative;
   }
   .footer-address {
     margin-left: 20px;
@@ -175,6 +186,9 @@
   width: 44px;
   height: 44px;
 }
+.social-list {
+  padding-right: 40px;
+}
 .social-item:not(:last-child) {
   margin-right: 16px;
 }
@@ -217,6 +231,7 @@
 .footer-nav-font {
   color: white;
   font-family: "Epilogue";
+  font-style: normal;
 }
 .nav-link {
   text-decoration: none;
