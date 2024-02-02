@@ -101,6 +101,7 @@
   align-items: center;
   position: relative;
   padding-right: 15vh;
+  margin: 0;
 }
 
 .text-privacy .underline:before {
@@ -149,12 +150,13 @@
   }
   .text-text {
     margin-left: 20px;
+    width: 100%;
   }
   .footer-nav {
     margin-right: 20px;
     width: calc((100% / 2) - 20px);
-    display: flex; 
-    justify-content: flex-end ;
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
@@ -172,6 +174,7 @@
     margin-bottom: 152px;
     font-size: 18px;
     line-height: 1.33;
+    margin-bottom: 80px;
   }
 
   .address-img {
@@ -222,10 +225,6 @@
 
   .container-menu {
     margin-bottom: 174px;
-  }
-
-  .footer-text {
-    gap: 680px;
   }
 }
 .list {
