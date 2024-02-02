@@ -168,19 +168,16 @@
     display: flex;
     align-items: center;
     position: relative;
-    
+    padding-left: 14px;
   }
   .nav-list {
     list-style: none;
     text-decoration: none;
     position: relative;
-   
   }
   .footer-address {
     margin-left: 20px;
     width: calc((100% / 2) - 20px);
-    
-
   }
   .text-text {
     margin-left: 20px;
@@ -270,7 +267,10 @@
 
   .container-menu {
     margin-bottom: 174px;
-  }
+  }   
+  .footer-text {
+    gap: 680px;
+ }
 }
 .list {
   list-style-type: none;
