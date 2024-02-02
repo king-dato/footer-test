@@ -121,7 +121,7 @@
 }
 
 .privacy {
-  margin-right: 14px;
+  margin-right: 18px;
   text-decoration: none;
 }
 .service {
@@ -158,6 +158,14 @@
     display: flex;
     justify-content: flex-end;
   }
+  .container-menu {
+    margin-bottom: 80px;
+  }
+  .text-privacy {
+    padding-top: 14px;
+  }
+  .privacy {
+    margin-right: 14px;
 }
 
 /* tablet */
@@ -174,7 +182,6 @@
     margin-bottom: 152px;
     font-size: 18px;
     line-height: 1.33;
-    margin-bottom: 80px;
   }
 
   .address-img {
@@ -213,9 +220,6 @@
   margin-left: 20px;
 }
 
-.privacy {
-  margin-right: 18px;
-}
 
 /* laptop */
 @media screen and (min-width: 1280px) {
@@ -238,4 +242,7 @@
 }
 .nav-link {
   text-decoration: none;
+}
+.privacy {
+  margin-right: 18px;
 }
