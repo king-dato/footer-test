@@ -153,6 +153,8 @@
   .footer-nav {
     margin-right: 20px;
     width: calc((100% / 2) - 20px);
+    display: flex; 
+    justify-content: flex-end ;
   }
 }
 
