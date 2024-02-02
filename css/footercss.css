@@ -134,7 +134,7 @@
   }
   .social-list {
     margin-top: 40px;
-    margin-bottom: 80px;
+
     padding-left: 20px;
   }
   .nav-list {
@@ -145,12 +145,14 @@
   }
   .footer-address {
     margin-left: 20px;
+    width: calc((100% / 2) - 20px);
   }
   .text-text {
     margin-left: 20px;
   }
   .footer-nav {
     margin-right: 20px;
+    width: calc((100% / 2) - 20px);
   }
 }
 
