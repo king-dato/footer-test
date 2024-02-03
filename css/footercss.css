@@ -194,7 +194,11 @@
   }
   .text-privacy {
     padding-top: 14px;
+    padding-right: 14px;
+    margin: 0;
+    padding-left: 20px;
   }
+
   .privacy {
     margin-right: 14px;
   }
